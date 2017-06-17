@@ -1,0 +1,2 @@
+module SecondImagesHelper
+end

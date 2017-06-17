@@ -1,0 +1,28 @@
+<%= image_tag "img1.jpg", width: 300 %>
+<h4>votos: <%= @foto1.count %></h4>
+<%= form_for(@img1) do |f| %>
+  <p><%= f.label :name, "Nombre" %></p>
+  <p><%= f.text_field :name %></p>
+
+  <p><%= f.label :email, "email" %></p>
+  <p><%= f.text_field :email %></p>
+  <p><%= f.submit "Enviar info" %></p>
+<% end %>
+
+
+
+
+
+
+
+
+<%= image_tag "img2.jpg" %>
+<h4>votos: <%= @foto2.count %></h4>
+<%= form_for(@img2) do |f| %>
+  <p><%= f.label :name, "Nombre" %></p>
+  <p><%= f.text_field :name %></p>
+
+  <p><%= f.label :email, "email" %></p>
+  <p><%= f.text_field :email %></p>
+  <p><%= f.submit "Enviar info" %></p>
+<% end %>

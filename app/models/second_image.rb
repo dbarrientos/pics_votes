@@ -1,0 +1,2 @@
+class SecondImage < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class FirstImage < ApplicationRecord
+end
